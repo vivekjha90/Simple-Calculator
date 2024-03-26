@@ -1,0 +1,102 @@
+#main{
+    height: 30rem;
+    width:20rem;
+    border:3px solid #260320;
+    padding: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    border-radius: 1.2rem;
+    background-color: #420f39;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#display{
+    height:3.4rem;
+    width: 100%;
+    border:1.5px solid rgb(207, 181, 181);
+    font-size: 3rem;
+    color: rgb(70, 123, 169);
+    border-radius:9px;
+    text-align: right;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#keypad{
+    height: 2.3rem;
+    width: 18%;
+    border:1.5px solid rgb(194, 191, 8);
+   margin-top: 1.2rem;
+   border-radius: 10px;
+   text-align: center;
+   color: white;
+   font-size: 1.5rem;
+   
+ 
+}
+#btn{
+ padding: 9px;
+ display: flex;
+ 
+ gap: 0.4rem;
+}
+button{
+    border: 1.5px solid green;
+    border-radius: 4px;
+    width: 30px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+#enter{
+  height: 2rem;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #52b69a;
+    margin: 0px;
+    padding: 0px;
+}
+#clr{
+    width: 100%;
+    font-size: 1.3rem;
+}
+marquee{
+    background-color:black;
+    color: rgb(193, 236, 150);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40rem;
+    font-size: 30px;
+}
+
+#heading{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+#brand{
+    width: 7rem;
+    height: 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 34px;
+    background-color: black;
+    color: rgb(229, 187, 51);
+}
+
+span{
+    color: darkred;
+    font-weight: 800;
+}
